@@ -9,8 +9,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Photography Portfolio",
-  description: "Capturing moments across landscapes, portraits, and urban environments",
+  title: "Oxo3ona Portfolio",
+  description: "Art Photography and Direction",
   generator: "v0.app",
   icons: {
     icon: [
