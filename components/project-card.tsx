@@ -12,7 +12,7 @@ export function ProjectCard({ title, description, image, tags }: ProjectCardProp
     <article className="group cursor-pointer">
       <div className="relative aspect-[3/4] mb-4 overflow-hidden bg-muted rounded-sm">
         <Image
-          src={image || "/placeholder.svg"}
+          src={image}
           alt={title}
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
