@@ -7,15 +7,10 @@ export default function AboutPage() {
 
           <div className="space-y-8 text-lg font-light leading-relaxed">
             <p>
-              I am a Berlin based visual artist creating horror and surreal photography, with roots in experimental moving image and sound. My work is inspired by surrealist visions and the quiet violence of dreams: love that belongs to an image, time that refuses to stay still, truth that hides in the dark.
-            </p>
-
-            <p>
-              I approach each project like a staged scene from a film. I develop the concept, design the set, style the characters, and photograph the final frame, often using grain, monochrome, and practical effects to keep the illusion physical. The result is cinematic, haunted, and intimate: portraits that feel like myths, and stories that look back at you.
-            </p>
-
-            <p>
-              Available for editorials, album artwork, and collaborations that want atmosphere, narrative, and a touch of dread.
+              Elif Zuhal Bayrak, working under the artist name oxo3ona, is a visual artist born in Istanbul and based in Berlin.
+oxo3ona explores the tension between comfort and discomfort, testing the emotional limits of the viewer through deliberately unpleasant imagery. Rooted in visual languages of past centuries, the work carries a timeless quality — suspended between eras and resisting clear placement in time.
+Originally studying Art History, oxo3ona left her studies in the final year, choosing instead to pursue a direct artistic practice. This academic background continues to inform the work through references to historical aesthetics, symbolism, and classical composition.
+Working across photography and videography, oxo3ona seeks to animate moments with the same intention: to preserve, disturb, and communicate. The work does not aim for shock alone, but for meaning — delivered through friction, intimacy, and quiet unease.
             </p>
           </div>
         </div>
