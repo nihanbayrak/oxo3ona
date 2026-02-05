@@ -26,6 +26,12 @@ export function ProjectGrid() {
 
   return (
     <div className="container mx-auto px-6 lg:px-12 pb-24">
+      {/* Project Title */}
+      <div className="mb-12">
+        <h2 className="text-2xl md:text-3xl font-light tracking-tight mb-2">Platte Berlin 2025</h2>
+        <p className="text-muted-foreground font-light">Runway Show</p>
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {photos.map((photo, index) => (
           <div

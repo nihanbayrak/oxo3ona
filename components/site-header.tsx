@@ -14,6 +14,7 @@ export function SiteHeader() {
 
   const navLinks = [
     { href: "/", label: "Portfolio" },
+    { href: "/art-direction", label: "Art Direction" },
     { href: "/exhibitions", label: "Exhibitions" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
