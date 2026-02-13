@@ -16,12 +16,18 @@ export default function ContactPage() {
     setStatus("loading")
 
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch("https://formsubmit.co/ajax/oxo3ona@gmail.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          Accept: "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          _subject: `Contact Form: ${formData.subject}`,
+          message: formData.message,
+        }),
       })
 
       if (response.ok) {
@@ -32,7 +38,7 @@ export default function ContactPage() {
         setStatus("error")
         setTimeout(() => setStatus("idle"), 5000)
       }
-    } catch (error) {
+    } catch {
       setStatus("error")
       setTimeout(() => setStatus("idle"), 5000)
     }
@@ -92,7 +98,6 @@ export default function ContactPage() {
                 name="subject"
                 value={formData.subject}
                 onChange={handleChange}
-                required
                 className="w-full bg-transparent border-b border-foreground/20 focus:border-foreground py-3 outline-none transition-colors font-light"
               />
             </div>
